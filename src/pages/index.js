@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Image from '../components/image'
 import Card from '../components/card';
 import Page from '../components/page'
 
@@ -11,7 +10,7 @@ const IndexPage = () => (
   <buttonNext>WEITER</buttonNext>
   <Page />
     <div class="hero">
-      <h2>Daaels efa</h2>
+      <h2>Daaels efsa</h2>
       <div class="circleW1"></div>
 
       <div class="circle1"></div>

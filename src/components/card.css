@@ -1,0 +1,27 @@
+.Card{
+    width:220px;
+    height: 220px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,.25);
+    padding: 10px;
+    color: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Card img {
+    position:absolute;
+    top:0;
+    height: 220px;
+    z-index: -2;
+}
+
+.Card h3 {
+    color: black;
+    font-size: 15px;
+}
+
+.Card p {
+    color: black;
+    align-self: end;
+}
