@@ -3,9 +3,9 @@ import './page.css'
 
 const Page = props => (
     <div>
-        <h1>Page Componente</h1>
-        <p>asdfask</p>
-    </div>      
+        <h1>{props.title}</h1>
+        <p>qqqq</p>
+    </div>
 )
 
 export default Page
